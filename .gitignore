@@ -1,0 +1,11 @@
+**/.vscode
+**/__pycache__
+**/*.ipynb
+**/.git
+.env
+venv
+minio/data/*
+data/*
+logs/*
+plugins/
+back_up

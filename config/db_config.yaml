@@ -1,0 +1,25 @@
+postgres: {
+  host: {
+    local: "host.docker.internal",
+    shared: "db"
+  },
+  port: {
+    default: 5432,
+    shared: 5433
+  },
+  name: {
+    default: "database",
+    shared: "",
+    airflow: "airflow"
+  },
+  user: {
+    default: "postgres",
+    shared: "",
+    airflow: "airflow"
+  },
+  password: {
+    default: "1234",
+    shared: "",
+    airflow: "airflow"
+  }
+}
